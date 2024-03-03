@@ -1,0 +1,13 @@
+﻿set(INCLUDE_PATH ${CMAKE_SOURCE_DIR}/include)
+
+set(SOURCE_PATH ${CMAKE_SOURCE_DIR}/source)
+
+set(LIBS_PATH ${CMAKE_SOURCE_DIR}/libs)
+
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE})
+
+set(CONFIG_PATH      ${CMAKE_SOURCE_DIR}/config)
+
+set(DATA_PATH ${CMAKE_SOURCE_DIR}/data)
+
+set(Boost_INCLUDE_DIR  "C:/local/boost_1_82_0")
